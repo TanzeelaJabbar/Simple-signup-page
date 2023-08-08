@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* main div */
+.main{
+        display: flex;
+        justify-content: space-between;
+}
+
+/* sub div */
+.head{
+    height: 100vh;
+    width: 66vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* heading in head div */
+.head h2{
+    color:blue;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/* para in head div */
+.head>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: blue;
+}
+
+/* div head1 style */
+.head1{
+    height: 100vh;
+    width: 66vw;
+    background-color: white;
+}
+
+/* login div */
+.loginbox{
+    /* position: relative; */
+    position: absolute;
+    right: 0;
+    height: 400px;
+    width: 600px;
+    margin: 5% auto;
+    background:white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+
+}
+
+/* left div */
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 400px;
+    width: 300px;
+}
+
+/* heading in left div */
+h1{
+    color: blue;
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* all input fields style */
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+/* sig up button */
+button[type="submit"]{
+    margin-bottom: 28px;
+    height: 32px;
+    width: 120px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-family: sans-serif;
+    transition: 0.2s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* sigup button hover */
+button:hover{
+    color: blue;    
+    background: white;
+    border: 1px solid blue;
+}
+
+/* right div */
+.right{
+    position: absolute;
+    top:0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 400px;
+    width: 300px;
+    background: blue;
+}
+
+/* heading in right div */
+.right .signin{
+    color:  white;
+    display: block;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;;
+}
+
+/* button design */
+.login{
+    margin-bottom: 20px;
+    width:220px ;
+    height: 36px;
+    border: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: 0.2s ease;
+    cursor: pointer;
+   
+}
+
+/* color of links */
+a{
+    color: black;
+}
+
+/* links style */
+.login a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* login button style */
+ .login a:hover{
+    color:white;
+}
+
+
+/* Background of social media buttons */
+#Facebook{
+    background: #1877f2;
+}
+#Google{
+    background-color:#dd4b39;
+}
+#Twitter{
+    background-color:  #55acee;
+}
